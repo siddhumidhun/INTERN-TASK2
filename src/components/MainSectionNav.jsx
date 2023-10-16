@@ -18,7 +18,7 @@ const MainSectionNav = () => {
 
                 <div className="flex flex-col items-end px-2">
                     <p className="font-bold text-xs">Ezio Auditore</p>    
-                    <p className="text-sm">Admin</p>
+                    <p className="text-sm ">Admin</p>
                 </div>
 
                 <div>

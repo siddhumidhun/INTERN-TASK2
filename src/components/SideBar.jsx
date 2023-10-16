@@ -109,11 +109,11 @@ const Sidebar = () => {
       
       <section className="flex items-center justify-center h-10">
           <img className="w-10" src={taxi} alt="logo" />
-          {menu==='show'?<p className="font-bold whitespace-nowrap text-sm">நம்ம ஊரு டாக்ஸி</p>:<span/>}
+          {menu==='show'?<p className="font-black whitespace-nowrap text-[12px]">நம்ம ஊரு டாக்ஸி</p>:<span/>}
       </section>
 
       <section>
-      <div className={`flex items-center justify-end h-10  hover:cursor-pointer ${menu === 'hide' ? 'w-16' : 'w-64'}`}>
+      <div className={`flex items-center justify-end h-10  hover:cursor-pointer ${menu === 'hide' ? 'w-16' : 'w-48'}`}>
           {menu==='show'?<span onClick={()=>{handleMenu()}}>
           <img classname="w-16" src={log} alt="log"/>
             </span>:<span onClick={()=>{handleMenu()}}>
